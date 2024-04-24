@@ -82,6 +82,8 @@ export default function Home() {
   
   <div className="box-border  mr-40 ml-40 h-500px rounded-lg w-300 p-40 bg-slate-300 ma ">
   </div>
+  {/* 犬　写真 */}
+  <img className="h-10 w-10 rounded-full" src="./images/改这边"alt="image" />
 
   <div className= "mt-20  mr-40 ml-40 ">
     <h1 className="text-5xl">TailwindTemplates v2 is here</h1>
