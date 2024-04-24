@@ -114,8 +114,29 @@ export default function Home() {
 
   </div>
 
-  {/* -------------<>footer---------------- */}
+  {/* -------------footer---------------- */}
   <div className="bg-blue-700">
+
+  <div className="container mx-auto">
+    <div className="flex flex-wrap justify-between">
+      {/* <!-- 列 1 --> */}
+      <div className="w-full sm:w-1/2 md:w-1/3">
+        <h4 className="mb-4">列 1</h4>
+        <p>ここにテキストを追加します。</p>
+      </div>
+      {/* <!-- 列 2 --> */}
+      <div className="w-full sm:w-1/2 md:w-1/3 mt-8 sm:mt-0">
+        <h4 className="mb-4">列 2</h4>
+        <p>ここにテキストを追加します。</p>
+      </div>
+      {/* <!-- 列 3 --> */}
+      <div className="w-full sm:w-1/2 md:w-1/3 mt-8 md:mt-0">
+        <h4 className="mb-4">列 3</h4>
+        <p>ここにテキストを追加します。</p>
+      </div>
+    </div>
+  </div>
+
     <p>About</p>
     <br />
     <p>me</p>
