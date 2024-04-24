@@ -79,16 +79,52 @@ export default function Home() {
   <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
   
   <div className="box-border  mr-40 ml-40 h-500px rounded-lg w-300 p-40 bg-slate-300 ma ">
+  </div>
+
+  <div className= "mt-20  mr-40 ml-40 ">
+    <h1 className="text-5xl">TailwindTemplates v2 is here</h1>
+    <br />
+    <p>TailwindTemplates V2 is finally here! Our focus for
+       TailwindTemplates v2 is to bring open-source design systems
+       to Tailwindcss. Each design system has a detailed guideline to provide consistency and coherence within a user interface.</p>
+    <br />
+    <h2 className="text-4xl">What to expect?</h2>
+    <br />
+    <p>
+    Over the coming months, we will expand the design systems that are currently available at launch. In addition to that, we are planning to
+     create several tailwind configurations to easily get started with the proper colors and variants that belong to each design system. 
+    </p>
+    <br />
+    <h2 className="text-4xl">What to expect?</h2>
+    <p>
+    Over the coming months, we will expand the design systems that are currently available at launch. In addition to that, we are planning to
+     create several tailwind configurations to easily get started with the proper colors and variants that belong to each design system. 
+    </p>
+     <br />
+    <h2 className="text-4xl">What to expect?</h2>
+    <p className="mb-40">
+    Over the coming months, we will expand the design systems that are currently available at launch. In addition to that, we are planning to
+     create several tailwind configurations to easily get started with the proper colors and variants that belong to each design system. 
+    </p>
+    
+
+     </div>
   
   </div>
 
-  
+  </div>
+
+  {/* -------------<>footer---------------- */}
+  <div className="bg-blue-700">
+    <p>About</p>
+    <br />
+    <p>me</p>
+    <br />
+    <br /><br /><br /><br /><br />
+
   </div>
 
   
- 
-
-  </div>
 
 
   
