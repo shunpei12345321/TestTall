@@ -126,17 +126,20 @@ export default function Home() {
       {/* <!-- 列 1 --> */}
       <div className=" w-full  sm:w-1/2 md:w-1/3">
         <h4  className="text-gray-100">About</h4>
-        <p className="text-gray-100">ここにテキストを追加します。</p>
+        <p className="text-gray-100">Me</p>
+        <p className="text-gray-100">Contact</p>
+        <p className="text-gray-100">Disclaimer</p>
+      
       </div>
       {/* <!-- 列 2 --> */}
       <div className=" w-full  sm:w-1/2 md:w-1/3">
         <h4  className="text-gray-100">About</h4>
-        <p className="text-gray-100">ここにテキストを追加します。</p>
+        <p className="text-gray-100">frsfwrg</p>
+        <p className="text-gray-100">talleded</p>
       </div>
       {/* <!-- 列 3 --> */}
       <div className=" w-full  sm:w-1/2 md:w-1/3">
-        <h4  className="text-gray-100">subsuku</h4>
-        <div className="text-gray-100">ボタン</div>
+        <button className="bg-red-500 text-white px-20 py-2 rounded">ボタン</button>
         
       </div>
      
@@ -146,15 +149,15 @@ export default function Home() {
     <p></p>
     <br />
     <p></p>
-    <br /><br /><br /><br />
-    <div className="text-gray-100 text-center" >ボタン</div>
+    <br /><br /><br />
+    <div className="text-gray-100 text-center" ><button className="bg-red-500 text-white px-20 py-2 rounded">ボタン</button></div>
     <br />
     <p className="text-gray-100 text-center" >Built copylight with offey @ by Jucyhiz</p>
+    <br />
     <br />
 
   </div>
 
-  
 
 
   
