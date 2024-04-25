@@ -10,7 +10,7 @@ export default function Home() {
         <div className="flex items-center">
           <div className="flex-shrink-0">
            <div>
-              {/* 犬　写真 */} <img className="h-10 w-10 rounded-full" src="./images/shulinp.png"alt="image" />
+              {/* エビ　写真 */} <img className="h-10 w-10 rounded-full" src="./images/shulinp.png"alt="image" />
            </div>
             {/* <img className="h-8 w-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"> */}
           </div>
@@ -57,7 +57,8 @@ export default function Home() {
           </div>
           <div className="ml-3">
             <div className="text-base font-medium leading-none text-white">Tom Cook</div>
-            <div className="text-sm font-medium leading-none text-gray-400">tom@example.com</div>
+            {/* <div className="text-sm font-medium leading-none text-gray-400">tom@example.com</div> */}
+            {/* tomのところ */}
           </div>
           <button type="button" className="relative ml-auto flex-shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
             <span className="absolute -inset-1.5"></span>
@@ -77,15 +78,51 @@ export default function Home() {
     </div>
   </nav>
 
-
   <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-  {/* ボックスのところ */}
+  {/* ボックスのところ---------------------------------------- */}
   <div className="box-border  mr-40 ml-40 mt-10 h-500px rounded-lg w-300 p-40 bg-slate-300 ma ">
   </div>
+  {/* ボックスのところ--------------------------------------- */}
+
+  
 
 
-  <div className= "mt-20  mr-40 ml-40 ">
-    <h1 className="text-5xl">TailwindTemplates v2 is here</h1>
+  <div className= "mt-10  mr-40 ml-40 ">
+
+    <button className=" bg-blue-300 text-white  px-10 py-2 rounded-lg">Update</button>
+    
+    <h1 className="text-5xl mt-10">TailwindTemplates v2 is here</h1>
+
+     {/* ---------------头像挤在一起的地方  ----------- */}
+     <div>
+      <div className="flex h-16 items-center justify-between">
+        <div className="flex items-center">
+          <div className="flex-shrink-0">
+           <div>
+              {/* エビ　写真 */} <img className="h-7 w-7 rounded-full" src="./images/shulinp.png"alt="image" />
+           </div>
+            {/* <img className="h-8 w-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"> */}
+          </div>
+          <div className="hidden md:block">
+            <div className="ml-10">1 min read</div> 
+           
+          </div>
+        </div>
+        
+        <div>
+        <div className="ml-10 flex items-baseline space-x-4">
+              <img className="h-10 w-10" src="./images/animal.png"alt="image" />
+              <img className="h-10 w-10" src="./images/animal.png"alt="image" />
+              <img className="h-10 w-10" src="./images/animal.png"alt="image" />
+            </div>
+        </div>
+        {/* 24から５２がアイコン */}
+        <div className="-mr-2 flex md:hidden">
+          
+        </div>
+      </div>
+    </div>
+    {/* ---------------头像挤在一起的地方头像挤在一起的地方------------ */}
     <br />
     <p>TailwindTemplates V2 is finally here! Our focus for
        TailwindTemplates v2 is to bring open-source design systems
