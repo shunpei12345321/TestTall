@@ -10,7 +10,7 @@ export default function Home() {
         <div className="flex items-center">
           <div className="flex-shrink-0">
            <div>
-            アイコン
+              {/* 犬　写真 */} <img className="h-10 w-10 rounded-full" src="./images/shulinp.png"alt="image" />
            </div>
             {/* <img className="h-8 w-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"> */}
           </div>
@@ -79,11 +79,10 @@ export default function Home() {
 
 
   <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-  
-  <div className="box-border  mr-40 ml-40 h-500px rounded-lg w-300 p-40 bg-slate-300 ma ">
+  {/* ボックスのところ */}
+  <div className="box-border  mr-40 ml-40 mt-10 h-500px rounded-lg w-300 p-40 bg-slate-300 ma ">
   </div>
-  {/* 犬　写真 */}
-  <img className="h-10 w-10 rounded-full" src="./images/改这边"alt="image" />
+
 
   <div className= "mt-20  mr-40 ml-40 ">
     <h1 className="text-5xl">TailwindTemplates v2 is here</h1>
@@ -118,11 +117,12 @@ export default function Home() {
 
   </div>
 
-  {/* -------------footer---------------- */}
+  {/* -------------------------footer---------------------------------- */}
   <div className="bg-blue-700">
 
-  <div className="container mx-auto">
-    <div className="flex flex-wrap justify-between">
+
+  <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div className="flex flex-wrap ustifjy-between">
       {/* <!-- 列 1 --> */}
       <div className="w-full sm:w-1/2 md:w-1/3">
         <h4 className="mb-4">列 1</h4>
@@ -141,9 +141,9 @@ export default function Home() {
     </div>
   </div>
 
-    <p>About</p>
+    <p></p>
     <br />
-    <p>me</p>
+    <p></p>
     <br />
     <br /><br /><br /><br /><br />
 
