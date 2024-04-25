@@ -118,34 +118,39 @@ export default function Home() {
   </div>
 
   {/* -------------------------footer---------------------------------- */}
-  <div className="bg-blue-700">
+  <div className="bg-blue-700 ">
 
 
-  <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div className="flex flex-wrap ustifjy-between">
+  <div className="mx-auto max-w-5xl  pt-1 px-4 sm:px-6 lg:px-8">
+    <div className="flex flex-wrap  mt-20 ustifjy-between">
       {/* <!-- 列 1 --> */}
-      <div className="w-full sm:w-1/2 md:w-1/3">
-        <h4 className="mb-4">列 1</h4>
-        <p>ここにテキストを追加します。</p>
+      <div className=" w-full  sm:w-1/2 md:w-1/3">
+        <h4  className="text-gray-100">About</h4>
+        <p className="text-gray-100">ここにテキストを追加します。</p>
       </div>
       {/* <!-- 列 2 --> */}
-      <div className="w-full sm:w-1/2 md:w-1/3 mt-8 sm:mt-0">
-        <h4 className="mb-4">列 2</h4>
-        <p>ここにテキストを追加します。</p>
+      <div className=" w-full  sm:w-1/2 md:w-1/3">
+        <h4  className="text-gray-100">About</h4>
+        <p className="text-gray-100">ここにテキストを追加します。</p>
       </div>
       {/* <!-- 列 3 --> */}
-      <div className="w-full sm:w-1/2 md:w-1/3 mt-8 md:mt-0">
-        <h4 className="mb-4">列 3</h4>
-        <p>ここにテキストを追加します。</p>
+      <div className=" w-full  sm:w-1/2 md:w-1/3">
+        <h4  className="text-gray-100">subsuku</h4>
+        <div className="text-gray-100">ボタン</div>
+        
       </div>
+     
     </div>
   </div>
 
     <p></p>
     <br />
     <p></p>
+    <br /><br /><br /><br />
+    <div className="text-gray-100 text-center" >ボタン</div>
     <br />
-    <br /><br /><br /><br /><br />
+    <p className="text-gray-100 text-center" >Built copylight with offey @ by Jucyhiz</p>
+    <br />
 
   </div>
 
